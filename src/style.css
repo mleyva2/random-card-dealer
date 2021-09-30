@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  margin-top: 100px;
+  height: 350px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.bottom-suit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 60px;
+  transform: rotate(180deg);
+  padding-left: 10px;
+}
+
+.top-suit {
+  font-size: 60px;
+  padding-left: 10px;
+}
+
+.spade {
+  color: black;
+}
+
+.clubs {
+  color: black;
+}
+
+.hearts {
+  color: red;
+}
+
+.diamond {
+  color: red;
+}
